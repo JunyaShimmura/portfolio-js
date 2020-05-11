@@ -1,7 +1,6 @@
-
 body{
-    margin: auto;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 ;
 }
 
 
@@ -18,7 +17,7 @@ body{
     color: #363636;   
  
 }
-main,.works,.contact{
+main,.skill,.work,.contact{
     background-color:#f7f731;
 }
 
@@ -40,7 +39,7 @@ main a {
     width: 40%;
 }
 name{
-    font-size: 70px;
+    font-size: 69px;
     font-weight: bold;
     
 }
@@ -61,6 +60,9 @@ h2{
     flex: 1;
     margin: 20px;
 }
+.skill a{
+    font-size: 50px;
+}
 .col img{
     width: 80%;
     padding: 20px;
@@ -68,10 +70,10 @@ h2{
 h4{
     font-size: 30px;
 }
-.works a{
-    font-size: 15px;
+.work a{
+    font-size: 50px;
 }
-.works p{
+.work p{
     text-align: center;
 }
 
@@ -108,36 +110,21 @@ textarea{
     height: 100px;
     margin: 10px;
 }
-@media(max-width:850px){
+@media(max-width:860px){
     h1{
         font-size: 20px;
     }
     #home{
         text-align: left;
+        padding: 3px;
+
     }
     name{
-        font-size: 45px;
+        font-size: 40px;
         text-align: center;
 
     }
-}
-
-@media (max-width:500px){
-    .nav-list ul{
-        display: none;
-    }
-    h1{
-        font-size: 15px;
-    }
-    #home{
-        text-align: left;
-    }
-    name{
-        font-size: 35px;
-        text-align: left;
-
-    }
-        .row{
+      .row{
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -158,5 +145,27 @@ textarea{
         width: 90%;
     }
    
+}
+
+@media (max-width:550px){
+    .nav-list ul{
+        display: none;
+    }
+    h1{
+        font-size: 15px;
+    }
+    #home{
+        text-align: left;
+        width: auto;
+        padding: 10px;
+
+
+    }
+    name{
+        font-size: 30px;
+        text-align: left;
+
+    }
+      
 
 }
