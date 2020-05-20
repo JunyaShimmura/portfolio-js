@@ -53,7 +53,7 @@ h2{
 }
 .row{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
 }
 .col{
