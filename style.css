@@ -121,7 +121,8 @@ textarea{
     margin: 10px;
 }
 /* 860 */
-@media(max-width:860px){
+@media(max-width:860px)
+{
     h1{
         font-size: 20px;
     }
@@ -136,8 +137,9 @@ textarea{
 
     }
     
-
-@media (max-width:550px){
+}
+@media(max-width:550px)
+{
     .nav-list ul{
         display: none;
     }
@@ -156,14 +158,14 @@ textarea{
         text-align: left;
 
     }
-     .row{
+    .row{
         display: flex;
         flex-direction: column;
         text-align: center;
     }
     .col{
         width: 100%;
-        margin: 20px;
+        margin: 0px;
     }
   
     /* .col img{
@@ -189,4 +191,3 @@ textarea{
    
 } 
 
-}
