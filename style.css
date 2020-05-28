@@ -9,14 +9,17 @@ header {
     position: relative;
 }
 
+
+
 .pfix{
     width: 100%;
     position: fixed;
 }
 
 /* nav_menu */
-.nav{
+.pfix nav{
     position: absolute;
+    height: 100vh;
     width: 100%;
     left: -100%;
     background: rgba(99, 99, 99,.95);
@@ -30,7 +33,6 @@ header {
 
 .pfix li{
     height: calc(90vh/6);
-    line-height: 100px;
     list-style-type: none;
     font-size: 3em;
     text-align: center;
@@ -43,39 +45,25 @@ header {
 }
 #target {
     width: 40px;
+    height: 30px;
     position: absolute;
-    left: 5px;
+    top: 5px;
+    left: 20px;
     cursor: pointer;
     display: block;
-    -webkit-transition: 1s;
-    transition: 1s;
+    -webkit-transition: 1.5s;
+    transition: 1.5s;
 }
 
 .target_inner{
     width: 40px;
+    height: 30px;
     position: relative;
-}
-.target_inner_line {
-    display: block;
-    width: 40px;
-    height: 5px;
-    background: #636363;
-    -webkit-transition: 1.5s;
-    transition: 1.5s;
-    border-radius: 50px;
-    position: absolute;
 }
 
 .target_inner_1 {
     top: 0;
-}
-
-.target_inner_2 {
-    top: 12px;
-}
-
-.target_inner_3 {
-    top: 24px;
+   
 }
 
 /* 動き */
@@ -83,26 +71,13 @@ header {
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
 }
-
-.linea,.lineb,.linec{
+#line1{
+    font-size: 30px;
+}
+.linea{
     background: #ffffff;
 }
 
-.linea {
-    -webkit-transform: rotate(225deg);
-    transform: rotate(225deg);
-    top: 13px;
-}
-
-.lineb {
-    opacity: 0;
-}
-
-.linec {
-    -webkit-transform: rotate(-225deg);
-    transform: rotate(-225deg);
-    top: 13px;
-}
 
 
 
@@ -208,7 +183,7 @@ h3{
 .contact-row{
     display: flex;
     flex-direction: column;
-    margin: 0 50px;
+    margin: 0 30px;
     padding-bottom: 30px;
 }
 
